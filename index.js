@@ -27,7 +27,7 @@ app.get('/api/hello', function (req, res) {
 // my headerparser API endpoint
 app.get('/api/whoami', function (req, res) {
   res.json({
-    ipadress: req.ip,
+    ipaddress : req.ip,
     language: req.headers["accept-language"],
     software: req.headers["user-agent"]
   });
